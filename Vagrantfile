@@ -17,6 +17,8 @@ Vagrant.configure("2") do |config|
 		foreman.vm.hostname = "foreman.local.lo"
 		foreman.vm.network :private_network, ip: "10.0.0.2"
 		foreman.vm.provision "shell", inline: $setupscript
+		#test
+		
 	    
 	end
 #puppet-master
